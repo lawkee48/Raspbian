@@ -172,6 +172,9 @@ Click on 'Flash'
 
 Wait until the flash is completed.
 
+## Change Search Engine in Chromium
+Open Chromium browser --> setting --> Change the option under **Search engine**
+
 ## Reference
 How to install Raspbian on the Raspberry Pi. https://thepi.io/how-to-install-raspbian-on-the-raspberry-pi/
 Raspberry Pi Documentation. Getting Started. https://www.raspberrypi.org/documentation/computers/getting-started.html
