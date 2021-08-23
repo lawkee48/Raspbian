@@ -175,6 +175,13 @@ Wait until the flash is completed.
 ## Change Search Engine in Chromium
 Open Chromium browser --> setting --> Change the option under **Search engine**
 
+## Install Python, Python3
+Most distributions of Linux come with Python and Python 3 already installed (Raspbian: Python 2.7.16 & Python 3.7.3), but they might not have IDLE, the default IDE (interactive development environment), installed.
+```
+sudo apt update
+sudo apt install python python3 idle-python2.7 idle3
+sudo apt install python-pip python3-pip
+```
 ## Reference
 How to install Raspbian on the Raspberry Pi. https://thepi.io/how-to-install-raspbian-on-the-raspberry-pi/
 Raspberry Pi Documentation. Getting Started. https://www.raspberrypi.org/documentation/computers/getting-started.html
