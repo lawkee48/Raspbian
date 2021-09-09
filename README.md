@@ -211,6 +211,29 @@ sudo apt update
 sudo apt install python python3 python-pip python3-pip idle3 idle-python2.7
 ```
 
+## (Optional) Change pip source
+Recommand:
+```
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U
+pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+```
+or temporarily:
+```
+pip3 install -i http://pypi.douban.com/simple/ <package_name>
+```
+Sometimes there may be network problem causing a timeout, then we can set a timeout attribute to limit it
+```
+pip3 --default-timeout=100 install <package_name>
+```
+Other source list from Mainland China:
+- 阿里雲 http://mirrors.aliyun.com/pypi/simple/
+- 中國科技大學 https://pypi.mirrors.ustc.edu.cn/simple/
+- 豆瓣 http://pypi.douban.com/simple/
+- Python官方 https://pypi.python.org/simple/
+- v2ex http://pypi.v2ex.com/simple/
+- 中國科學院 http://pypi.mirrors.opencas.cn/simple/
+- 清華大學 https://pypi.tuna.tsinghua.edu.cn/simple/
+
 ## Reference
 - How to install Raspbian on the Raspberry Pi. https://thepi.io/how-to-install-raspbian-on-the-raspberry-pi/
 - Raspberry Pi Documentation. Getting Started. https://www.raspberrypi.org/documentation/computers/getting-started.html
